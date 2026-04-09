@@ -32,28 +32,28 @@ export default function Home() {
       name: 'Carbonara',
       desc: 'Fettuccine al dente com guanciale crocante, gema de ovo caipira, Pecorino Romano e pimenta-do-reino moída na hora.',
       price: 'R$32',
-      img: '/carbonara.png',
+      img: '/carbonara.jpg',
     },
     {
       cat: 'Pasta · Clássico',
       name: 'Bolognese',
       desc: 'Tagliatelle artesanal com ragù lento de carne bovina e suína, tomate San Marzano e vinho tinto reduzido por 4 horas.',
       price: 'R$35',
-      img: '/bolognese.png',
+      img: '/bolognese.jpg',
     },
     {
       cat: 'Pasta · Chef\'s Selection',
       name: 'Massa Premium',
       desc: 'Pappardelle negro de tinta de lula com lagostins salteados, manteiga de trufas negras e redução de prosecco.',
       price: 'R$45',
-      img: '/premium.png',
+      img: '/premium.jpg',
     },
     {
       cat: 'Pizza · Artesanal',
       name: 'Pizza Artesanal',
       desc: 'Massa de longa fermentação (72h), molho de tomates pelados italianos, fior di latte DOP, manjericão fresco e azeite extravirgem.',
       price: 'R$38',
-      img: '/pizza.png',
+      img: '/pizza.jpg',
     },
   ]
 
@@ -190,7 +190,7 @@ export default function Home() {
         <div className="vinho-inner">
           <div className="vinho-img">
             {/* wine.jpg — vertical image, object-position center top */}
-            <img src="/vinho.png" alt="Vinhos selecionados" />
+            <img src="/vinho.jpg" alt="Vinhos selecionados" />
           </div>
           <div className="vinho-content">
             <div className="sec-eyebrow reveal">
@@ -245,7 +245,7 @@ export default function Home() {
           </div>
           <div className="ingr-img">
             {/* ingredients.jpg — top view 1:1, object-fit cover center */}
-            <img src="/ingredients.png" alt="Ingredientes frescos e selecionados" />
+            <img src="/ingredients.jpg" alt="Ingredientes frescos e selecionados" />
           </div>
         </div>
       </section>
